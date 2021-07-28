@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    
+    <div class="options">
+        <div class="formulary">
+            <div class="sliderContainer">
+                <input id="slider" type="range" min="1" max="100" value="0">
+                <button class="btn" id="button">Submit</button>
+            </div>
+        </div>
+
+        <label><input type="radio" name="options" id="erase"><span class="label btn">Erase</span></label>
+        <label><input type="radio" name="options" id="rainbow"><span class="label btn">Rainbow</span></label>
+        <label><input type="radio" name="options" id="shade"><span class="label btn">Shade</span></label>
+        <label><input type="radio" name="options" ><span class="label btn" id="colorPicker" data-jscolor="{ value: 'rgba(0, 0, 0)'}"></span></label>
+         
+    </div>
+    <div class="board" id="board"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jscolor/2.4.5/jscolor.min.js"></script> 
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
